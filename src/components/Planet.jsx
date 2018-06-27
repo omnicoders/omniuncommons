@@ -4,13 +4,15 @@ import './Planet.css';
 
 class Planet extends Component {
   render() {
+    let planetClasses = this.props.inOrbit ? "Planet in-orbit" : "Planet";
     let linkStyles = {
       'left': `${this.props.left || '0'}`,
       'top': `${this.props.top || '0'}`,
-      'width': `${this.props.width || '150px'}`
+      'width': `${this.props.width || '150px'}`,
+      'zIndex': `${this.props.zIndex || '0'}`
     };
     return (
-      <div class="Planet">
+      <div className={planetClasses}>
         {(this.props.hasExternalLink) ? (
           <a
             href={this.props.linkTo}
@@ -25,7 +27,7 @@ class Planet extends Component {
 
             <div className="planet-label-container">
               <div className="planet-label">
-                Omni Commons
+                {this.props.label}
               </div>
             </div>
             

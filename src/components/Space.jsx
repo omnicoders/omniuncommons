@@ -4,7 +4,7 @@ import './Space.css';
 class Space extends Component {
   render() {
     return (
-      <div id="Space">
+      <div className="Space">
         {this.props.children}
       </div>
     );

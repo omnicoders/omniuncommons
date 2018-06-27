@@ -1,3 +1,6 @@
+.Planet.in-orbit {
+  animation: Planet-counter-spin infinite 90s linear;
+}
 .planet-link {
   position: absolute;
 }
@@ -10,7 +13,7 @@
 
 .planet-label-container {
   position: absolute;
-  bottom: -5gitpx;
+  bottom: -5px;
   left: 0;
   width: 100%;
   background-color: orangered;
@@ -46,4 +49,9 @@
 @keyframes Planet-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@keyframes Planet-counter-spin {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
 }
