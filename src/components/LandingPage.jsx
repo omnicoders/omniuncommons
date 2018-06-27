@@ -55,7 +55,7 @@ class LandingPage extends Component {
             <Planet 
               hasExternalLink
               inOrbit
-              linkTo="https://sudoroom.org/"
+              linkTo="https://counterculturelabs.org/"
               label="Counter Culture Labs"
               imageSrc={planetImage}
               imageAlt="Counter Culture Labs"
