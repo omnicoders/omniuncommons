@@ -1,32 +1,25 @@
 import React, { Component } from 'react';
 import omniLogo from '../images/omni_logo.jpeg';
 import './LandingPage.css';
+import Space from './Space';
+import Planet from './Planet';
 
 class LandingPage extends Component {
   render() {
     return (
-      <div id="LandingPage space-container">
-        
-        <a
-          href="https://omniuncommons.org/" 
-          id="omni-vortex"
-          className="logo-link"
-        >
-          <img 
-            id="omni-logo"
-            className="logo"
-            src={omniLogo} 
-            alt="Omni Commons Logo"
+      <div id="LandingPage">
+        <Space>
+          <Planet 
+            hasExternalLink
+            linkTo="https://omniuncommons.org/"
+            label="Omni Commons"
+            imageSrc={omniLogo}
+            imageAlt="Omni Commons Logo"
+            width="24vw"
+            top="calc(50% - 12vw)"
+            left="calc(50% - 12vw)"
           />
-
-          <div className="logo-label-container">
-            <div className="logo-label">
-              Omni Commons
-            </div>
-          </div>
-          
-        </a>
-
+        </Space>
       </div>
     );
   }
