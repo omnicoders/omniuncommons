@@ -3,22 +3,63 @@
   display: block;
   width: 100%;
   height: 100vh;
-  /*border: 1px solid blue;*/
 }
 
-#omni-logo-container {
+#omni-logo-link {
   position: absolute;
   left: calc(50% - 12vw);
   top: calc(50% - 12vw);
   width: 24vw;
-  /*border: 1px solid white;*/
 }
 
 #omni-logo {
   animation: Space-logo-spin infinite 140s linear;
-  width: inherit;
-  /*border: 1px solid red;*/
+  width: 100%;
+  border-radius:  100%;
 }
+
+.logo-label-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: orangered;
+  border-radius: 1em;  
+}
+
+.logo-label {
+  position: relative;
+  margin: 0 auto;
+  padding: 6px; 
+  color: #000;
+  font-size: 1.4em;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo-label-container,
+.logo-label {
+  display: none;
+}
+
+.logo-link:hover .logo-label-container,
+.logo-link:hover .logo-label {
+  display: block;
+}
+
+.logo-link:hover .logo, {
+  border: 1px solid white;
+}
+
+/*
+#space-container,
+#omni-logo-link:hover,
+#omni-logo-link:hover #omni-logo,
+#omni-logo-link:hover .logo-label {
+  border: 1px solid white;
+}
+*/
 
 @keyframes Space-logo-spin {
   from { transform: rotate(0deg); }
