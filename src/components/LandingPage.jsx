@@ -40,9 +40,9 @@ class LandingPage extends Component {
               label="Sudo Room"
               imageSrc={planetImage}
               imageAlt="Sudo Room"
-              width="6vw"
-              top="calc(50% - 3vw)"
-              left="calc(50% - 3vw)"
+              width="10vw"
+              top="calc(50% - 5vw)"
+              left="calc(50% - 5vw)"
             />
           </Orbit>
           <Orbit
