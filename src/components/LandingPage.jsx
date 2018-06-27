@@ -6,9 +6,10 @@ class LandingPage extends Component {
   render() {
     return (
       <div id="LandingPage space-container">
+        
         <a
           href="https://omniuncommons.org/" 
-          id="omni-logo-link"
+          id="omni-vortex"
           className="logo-link"
         >
           <img 
@@ -17,12 +18,15 @@ class LandingPage extends Component {
             src={omniLogo} 
             alt="Omni Commons Logo"
           />
+
           <div className="logo-label-container">
             <div className="logo-label">
               Omni Commons
             </div>
           </div>
-        </a> 
+          
+        </a>
+
       </div>
     );
   }

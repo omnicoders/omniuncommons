@@ -5,14 +5,17 @@
   height: 100vh;
 }
 
-#omni-logo-link {
-  position: absolute;
+#omni-vortex {
   left: calc(50% - 12vw);
   top: calc(50% - 12vw);
   width: 24vw;
 }
 
-#omni-logo {
+.logo-link {
+  position: absolute;
+}
+
+.logo {
   animation: Space-logo-spin infinite 140s linear;
   width: 100%;
   border-radius:  100%;
@@ -20,7 +23,7 @@
 
 .logo-label-container {
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   width: 100%;
   background-color: orangered;
@@ -48,8 +51,9 @@
   display: block;
 }
 
-.logo-link:hover .logo, {
-  border: 1px solid white;
+.logo-link:hover {
+  border: 4px solid orangered;
+  border-radius: 100%;
 }
 
 /*
