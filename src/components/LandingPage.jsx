@@ -15,8 +15,7 @@ class LandingPage extends Component {
         <Space>
 
           <Planet 
-            hasExternalLink
-            linkTo="https://omniuncommons.org/"
+            linkTo="/omni-commons"
             label="Omni Commons"
             imageSrc={omniLogo}
             imageAlt="Omni Commons Logo"
@@ -39,7 +38,7 @@ class LandingPage extends Component {
               linkTo="https://sudoroom.org/"
               label="Sudo Room"
               imageSrc={planetImage}
-              imageAlt="Sudo Room"
+              imageAlt="Sudo Room"  
               width="10vw"
               top="calc(50% - 5vw)"
               left="calc(50% - 5vw)"
