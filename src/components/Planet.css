@@ -15,7 +15,7 @@
   position: absolute;
   bottom: -5px;
   left: 0;
-  width: 100%;
+  min-width: 100%;
   background-color: orangered;
   border-radius: 1em;  
 }

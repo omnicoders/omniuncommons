@@ -5,7 +5,7 @@ import Space from './Space';
 import Orbit from './Orbit';
 import Planet from './Planet';
 
-import omniLogo from '../images/omni_logo.jpeg';
+import omniLogo from '../images/swirl.png';
 import planetImage from '../images/planet.png';
 
 class LandingPage extends Component {
