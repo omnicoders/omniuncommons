@@ -1,5 +1,5 @@
 .Orbit {
-  border: 2px solid rgba(0,0,200,1);
+  /* border: 2px solid rgba(0,0,200,1); */
   border-radius: 100%;
   animation: Orbit-spin infinite 90s linear;
   position: absolute;
